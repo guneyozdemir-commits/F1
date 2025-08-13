@@ -1,0 +1,148 @@
+{
+  "races": [
+    {
+      "season": "2024",
+      "round": "14",
+      "raceName": "Dutch Grand Prix",
+      "Circuit": {
+        "circuitId": "zandvoort",
+        "circuitName": "Circuit Zandvoort",
+        "Location": {
+          "locality": "Zandvoort",
+          "country": "Netherlands"
+        }
+      },
+      "date": "2024-08-25",
+      "time": "13:00:00Z",
+      "dateTime": "2024-08-25T13:00:00Z"
+    },
+    {
+      "season": "2024",
+      "round": "15",
+      "raceName": "Italian Grand Prix",
+      "Circuit": {
+        "circuitId": "monza",
+        "circuitName": "Autodromo Nazionale Monza",
+        "Location": {
+          "locality": "Monza",
+          "country": "Italy"
+        }
+      },
+      "date": "2024-09-01",
+      "time": "13:00:00Z",
+      "dateTime": "2024-09-01T13:00:00Z"
+    },
+    {
+      "season": "2024",
+      "round": "16",
+      "raceName": "Azerbaijan Grand Prix",
+      "Circuit": {
+        "circuitId": "baku",
+        "circuitName": "Baku City Circuit",
+        "Location": {
+          "locality": "Baku",
+          "country": "Azerbaijan"
+        }
+      },
+      "date": "2024-09-15",
+      "time": "11:00:00Z",
+      "dateTime": "2024-09-15T11:00:00Z"
+    },
+    {
+      "season": "2024",
+      "round": "17",
+      "raceName": "Singapore Grand Prix",
+      "Circuit": {
+        "circuitId": "marina_bay",
+        "circuitName": "Marina Bay Street Circuit",
+        "Location": {
+          "locality": "Marina Bay",
+          "country": "Singapore"
+        }
+      },
+      "date": "2024-09-22",
+      "time": "12:00:00Z",
+      "dateTime": "2024-09-22T12:00:00Z"
+    },
+    {
+      "season": "2024",
+      "round": "18",
+      "raceName": "United States Grand Prix",
+      "Circuit": {
+        "circuitId": "americas",
+        "circuitName": "Circuit of the Americas",
+        "Location": {
+          "locality": "Austin",
+          "country": "USA"
+        }
+      },
+      "date": "2024-10-20",
+      "time": "19:00:00Z",
+      "dateTime": "2024-10-20T19:00:00Z"
+    },
+    {
+      "season": "2024",
+      "round": "19",
+      "raceName": "Mexican Grand Prix",
+      "Circuit": {
+        "circuitId": "rodriguez",
+        "circuitName": "Autódromo Hermanos Rodríguez",
+        "Location": {
+          "locality": "Mexico City",
+          "country": "Mexico"
+        }
+      },
+      "date": "2024-10-27",
+      "time": "20:00:00Z",
+      "dateTime": "2024-10-27T20:00:00Z"
+    },
+    {
+      "season": "2024",
+      "round": "20",
+      "raceName": "São Paulo Grand Prix",
+      "Circuit": {
+        "circuitId": "interlagos",
+        "circuitName": "Autódromo José Carlos Pace",
+        "Location": {
+          "locality": "São Paulo",
+          "country": "Brazil"
+        }
+      },
+      "date": "2024-11-03",
+      "time": "17:00:00Z",
+      "dateTime": "2024-11-03T17:00:00Z"
+    },
+    {
+      "season": "2024",
+      "round": "21",
+      "raceName": "Las Vegas Grand Prix",
+      "Circuit": {
+        "circuitId": "vegas",
+        "circuitName": "Las Vegas Strip Circuit",
+        "Location": {
+          "locality": "Las Vegas",
+          "country": "USA"
+        }
+      },
+      "date": "2024-11-24",
+      "time": "06:00:00Z",
+      "dateTime": "2024-11-24T06:00:00Z"
+    },
+    {
+      "season": "2024",
+      "round": "22",
+      "raceName": "Abu Dhabi Grand Prix",
+      "Circuit": {
+        "circuitId": "yas_marina",
+        "circuitName": "Yas Marina Circuit",
+        "Location": {
+          "locality": "Abu Dhabi",
+          "country": "UAE"
+        }
+      },
+      "date": "2024-12-08",
+      "time": "13:00:00Z",
+      "dateTime": "2024-12-08T13:00:00Z"
+    }
+  ]
+}

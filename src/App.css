@@ -1,0 +1,23 @@
+#root {
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.app {
+  background-color: white;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* Debug styles */
+.debug-outline {
+  border: 2px solid red;
+}
+
+.debug-grid {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.debug-card {
+  background-color: rgba(0, 255, 0, 0.1);
+}
