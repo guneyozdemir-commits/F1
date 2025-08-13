@@ -73,7 +73,7 @@ export const CountdownTimer = ({ targetDate }: CountdownProps) => {
 
   return (
     <Group gap="md" justify="center" style={{ flexWrap: 'wrap' }}>
-      {timeUnits.map((unit, index) => (
+      {timeUnits.map(unit => (
         <Box
           key={unit.label}
           style={{

@@ -12,6 +12,7 @@ export interface Race {
   };
   date: string;
   time: string;
+  dateTime?: string;
   FirstPractice?: {
     date: string;
     time: string;

@@ -22,7 +22,7 @@ export const getNextRace = (races: Race[]): NextRaceInfo | null => {
   const futureRaces = races
     .map(race => ({
       ...race,
-      adjustedDate: adjustDateToCurrentYear(new Date(race.dateTime))
+      adjustedDate: adjustDateToCurrentYear(new Date(`${race.date}T${race.time}`))
     }))
     .filter(race => race.adjustedDate > now)
     .sort((a, b) => a.adjustedDate.getTime() - b.adjustedDate.getTime());

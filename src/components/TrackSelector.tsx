@@ -1,17 +1,16 @@
 import { useQuery } from '@tanstack/react-query';
 import { Grid, Card, Text, Button, Container, Badge, Table, Group, Stack, Image } from '@mantine/core';
+import '@mantine/core/styles/Image.css';
+import type { Circuit } from '../types';
+import { motion } from 'framer-motion';
+import { circuits } from '../data/circuits';
+import f1Logo from '../assets/f1-logo.png';
 import '@mantine/core/styles/Grid.css';
 import '@mantine/core/styles/Card.css';
 import '@mantine/core/styles/Text.css';
 import '@mantine/core/styles/Button.css';
 import '@mantine/core/styles/Table.css';
 import '@mantine/core/styles/Badge.css';
-import '@mantine/core/styles/Image.css';
-import type { Circuit } from '../types';
-import { motion } from 'framer-motion';
-import { circuits } from '../data/circuits';
-import f1Logo from '../assets/f1-logo.png';
-import f1Logo2 from '../assets/f1-logo-2.svg';
 
 
 interface TrackSelectorProps {
@@ -57,14 +56,17 @@ export default function TrackSelector({ onTrackSelect }: TrackSelectorProps) {
                       <svg
                         width="100%"
                         height="200"
-                        viewBox="0 0 100 100"
+                        viewBox="-10 -10 120 120"
                         preserveAspectRatio="xMidYMid meet"
+                        style={{ backgroundColor: '#f8f9fa' }}
                       >
                         <path
                           d={circuit.trackPath}
-                          stroke="black"
-                          strokeWidth="2"
+                          stroke="#E10600"
+                          strokeWidth="3"
                           fill="none"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
